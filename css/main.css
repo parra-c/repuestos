@@ -31,7 +31,17 @@ a:hover {
     text-decoration: none;
 }
 
-.navbar { min-height: 2rem; }
+.navbar { min-height: 2rem; 
+
+    background: #fff;
+
+
+
+}
+
+.navbar a {
+    text-transform: uppercase;
+}
 
 .bnt-search {
     right: 0;
@@ -69,13 +79,12 @@ a:hover {
     min-height: 700px;
 }
 
-#galeria img {
-    width: 100%;
-    height: 250px;
-}
 
-#galeria img:hover {
-    border: 5px solid #f7f7f7;
+
+.carousel {
+    width: 150px;
+    height: 150px;
+    text-align: center;
 }
 
 .bg-dark { background-color: var(--dark) !important; }
@@ -109,6 +118,29 @@ a:hover {
     height: 250px;
 }
 
+.list-inline {
+    color: #fff;
+    text-align:center;
+    margin: 0 0;
+}
+
+
+.map-container-5{
+overflow:hidden;
+padding-bottom:20.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:90%;
+width:100%;
+position:absolute;
+padding: auto;
+}
+
+
 @media (max-width: 575.98px) {
     .w-75 {
         width: 100% !important;
@@ -119,11 +151,21 @@ a:hover {
     }
     .btn {
         width: 100%;
+        height: 50%;
     }
     .list-inline-item {
         display: block;
         text-align: center;
     }
+
+    #tour{
+        display:none !important;
+    }
+
+
+
+
+
     footer {
         text-align: center;
     }
